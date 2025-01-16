@@ -1,4 +1,4 @@
-package lec05.dto;
+package Gql_new.lec05.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

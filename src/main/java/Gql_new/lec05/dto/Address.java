@@ -1,18 +1,15 @@
-package lec05.dto;
+package Gql_new.lec05.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.UUID;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor(staticName = "create")
-public class Account {
+public class Address {
 
-    private UUID id;
-    private Integer amount;
-    private String accountType;
+    private String street;
+    private String city;
 
 }

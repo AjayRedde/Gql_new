@@ -1,7 +1,7 @@
-package lec05.service;
+package Gql_new.lec05.service;
 
+import Gql_new.lec05.dto.Customer;
 import graphql.schema.DataFetchingEnvironment;
-import lec05.dto.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.stereotype.Controller;

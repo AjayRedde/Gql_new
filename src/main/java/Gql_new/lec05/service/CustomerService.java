@@ -1,6 +1,6 @@
-package lec05.service;
+package Gql_new.lec05.service;
 
-import lec05.dto.Customer;
+import Gql_new.lec05.dto.Customer;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 
